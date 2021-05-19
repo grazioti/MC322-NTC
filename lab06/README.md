@@ -15,23 +15,23 @@ Com os índices da sala em que deseja-se inserir o componente. Será verificado 
 1:1,P
 ...
 ```
-Em um próximo momento, deverá-se digitar qual o nome do jogador e após isso o jogador deverá jogar o jogo com as teclas W,A,S,D,K,C,Q, sendo cada função das teclas as seguintes:
+Em um próximo momento, deverá-se digitar qual o nome do jogador e após isso o jogador deverá jogar o jogo com as teclas w,a,s,d,k,c,q, sendo cada função das teclas as seguintes:
 ```
-W - Move-se para cima, caso o movimento seja válido;
+w - Move-se para cima, caso o movimento seja válido;
 
-A - Move-se para a esquerda, caso o movimento seja válido;
+a - Move-se para a esquerda, caso o movimento seja válido;
 
-S - Move-se para a baixo, caso o movimento seja válido;
+s - Move-se para a baixo, caso o movimento seja válido;
 
-D - Move-se para a direita, caso o movimento seja válido;
+d - Move-se para a direita, caso o movimento seja válido;
 
-C - Captura o ouro caso esteja na posição válida em que o ouro está inserido.
+c - Captura o ouro caso esteja na posição válida em que o ouro está inserido.
 
-K - Equipa-se a flecha no herói caso o herói contenha alguma flecha ainda. Esta flecha serve para enfrentar o Wumpus.
+k - Equipa-se a flecha no herói caso o herói contenha alguma flecha ainda. Esta flecha serve para enfrentar o Wumpus.
 
-Q - Tecla para sair imediatamente do jogo.
+q - Tecla para sair imediatamente do jogo.
 ```
-O jogo será finalizado, além do modo apertando a letra Q, caso o herói chegue na posição (1,1) com o ouro capturado, ou caso o herói morra, seja caindo em um buraco ou enfrentando um Wumpus e não conseguindo matá-lo.
+O jogo será finalizado, além do modo apertando a letra "q", caso o herói chegue na posição (1,1) com o ouro capturado, ou caso o herói morra, seja caindo em um buraco ou enfrentando um Wumpus e não conseguindo matá-lo.
 
 Especificidades: A flecha, se equipada, permanecerá na mão do herói caso o mesmo continue na mesma casa. Caso esse se mova, se for o local em que o Wumpus está, o herói terá 50% de chance de matar o monstro. Caso não haja um Wumpus na casa em que o herói se moveu, a flecha será perdida.
 
